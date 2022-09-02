@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/tailwind.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+
+</head>
+<body class="main-h-100 bg-gray-200">
+
+
+    <div class="container">
+        <div class="row">
+
+            <div class="one-half column">
+
+                <form action="" id="formulario" class="bg-white p-3">
+
+                    <div class="row">
+                        <label for="nombre"></label>
+                        <input type="text" class="aappearance-none" id="nombre" name="nombre" placeholder="Nombre del cliente">
+                    </div>
+                    <div class="row">
+
+                        <label for="cancha"></label>
+                        <select class="u-ful-width" name="cancha" id="cancha">
+                            <option value="" disabled selected>Elije la cancha</option>
+                            <option value="a">cancha A</option>
+                            <option value="b">cancha B</option>
+
+                        </select>
+
+                    </div>
+                    <div class="row">
+                        <div >
+                            <label for="">Horas</label>
+                            <input id="horaInicio" name="horaInicio" type="time">
+                            <input id="horaFinal" name="horaFinal" type="time">
+                        </div>
+                    </div>
+                    <input class="button-primary u-full-width" type="submit" value="Reservar">
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/funciones.js"></script>
+    <script src="js/nuevaReserva.js"></script>
+</body>
+</html>
